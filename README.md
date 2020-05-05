@@ -1,28 +1,43 @@
 # Formação Node.js
 
-# Slugify
+## Slugify
 - Responsável por remover os caracteres especiais do titulo do blog.
 
-# Sequelize
+## Sequelize
 - ORM com mysql.
 
-# Msyql2
+## Msyql2
 - Banco de dados.
 
-# Express
+## Express
 - API rest.
 
-# Body Parser
+## Body Parser
 - Converter todas as requisões em json.
 
-# EJS
+## EJS
 - Criar paginas html.
 
-# bcryptjs
+## bcryptjs
 - Gerar senhas
 
-# Express Session - Session e Cookies
+## Express Session - Session e Cookies
 - criar sessão de login
 
-# Redis
+## Redis
 - Salvando dados em cache
+
+## ES6, ES7, ES8
+- ECMAScript
+
+## Paypal 
+- Integração gestão ded pagamento
+
+## Upload de arquivo
+- Multer
+
+## HTML-PDF
+- Gerando arquivos html em pdf
+
+## NodeMailer
+- Enviando e-mail
