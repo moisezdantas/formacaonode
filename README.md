@@ -31,7 +31,7 @@
 - ECMAScript
 
 ## Paypal 
-- Integração gestão ded pagamento
+- Integração gestão de pagamento
 
 ## Upload de arquivo
 - Multer
