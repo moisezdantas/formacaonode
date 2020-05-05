@@ -1,0 +1,35 @@
+<%- include ("../partials/header.ejs") %>
+<%- include ("../partials/homenavbar.ejs") %>
+<body>
+    <div class="container">
+        <h2 class="mt-5">Lista de plano</h2>
+        <hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% plans.forEach(plan => { %>
+                    <tr>
+                        <td><%=plan.id%></td>
+                        <td><%=plan.title%></td>
+                        <td>R$ <%=plan.value%></td>
+                        <td><%=plan.deactivated%></td>
+                        <td>
+                            <a href="/plans/deactivate/<%=plan.id%>">Desativar</a>
+                            <a href="/plans/activate/<%=plan.id%>">Ativar</a>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+<%- include ("../partials/footer.ejs") %>
